@@ -1,0 +1,491 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">  
+<style>
+
+.container{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.left{
+    background-color: lightblue;
+    height: 1000;
+    width: 425px;
+    margin-left: 0;
+}
+
+.middle{
+    background-color: white;
+    height: 100%;
+    width: 550px;
+}
+
+.right{
+    background-color: lightblue;
+    height: 1000;
+    width: 425px;
+    display: inline-block;
+    position: relative;
+}
+
+.column{
+    flex: 33.33%;
+    height: 1200px;
+    background-color: lightblue;
+}
+
+.at{
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.box{
+    height: 30px;
+    width: 150px;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    top: 150px;
+    left: 100px;
+    background-color: rgb(229, 226, 226);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.pic1{
+    width: 90;
+    height: 65;
+    margin-left: -15;
+}
+
+.pic2{
+    width: 90;
+    height: 65;
+    margin-left: -16;
+}
+
+.pic3{
+    width: 90;
+    height: 65;
+    margin-left: -16;
+}
+
+.pic4{
+    width: 90;
+    height: 65;
+    margin-left: -15;
+}
+
+.pic5{
+    width: 90;
+    height: 65;
+    margin-left: -16;
+}
+
+.pic6{
+    width: 90;
+    height: 65;
+    margin-left: -16;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.line{
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    height: 2px;
+}
+
+.line2{
+    background-color: lightblue;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.pic7{
+    width: 50px;
+    height: 40px;
+}
+
+.text{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.pic8{
+    margin-left: 75px;
+    margin-right: 10px;
+    width: 460;
+    height: 350;
+    margin-bottom: 10px;
+}
+
+.pic9{
+    width: 50px;
+    height: 40px;
+}
+
+.pic10{
+    margin-left: 75px;
+    margin-right: 10px;
+    width: 460;
+    height: 350;
+}
+
+.box2{
+    margin-left: 10px;
+    height: 325;
+    width: 300px;
+    top: 0;
+    background: white;
+    position: absolute;
+}
+
+.box3{
+    margin-left: 10px;
+    height: 150px;
+    width: 300px;
+    background: white;
+    position: relative;
+    top: 375;
+}
+
+.pic11{
+    height: 70;
+    width: 90;
+    top: 50px;
+    margin-left: 5px;
+    align-items: left;
+    position: absolute;
+}
+
+.pic12{
+    height: 70;
+    width: 90;
+    top: 140;
+    margin-left: 5px;
+    align-items: left;
+    position: absolute;
+}
+
+.pic13{
+    height: 70;
+    width: 90;
+    top: 230;
+    margin-left: 5px;
+    align-items: left;
+    position: absolute;
+}
+
+
+
+.followbox1{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    top: 80px;
+    left: 105;
+    background-color: rgb(230, 228, 228);
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.followbox2{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    top: 170;
+    left: 105;
+    background-color: rgb(230, 228, 228);
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.followbox3{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    top: 260;
+    left: 105;
+    background-color: rgb(230, 228, 228);
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.col-auto{
+    padding: 0;
+    margin: 0;
+}
+
+.cu-text1{
+    position: absolute;
+    left: 105;
+    top: 50px;
+}
+
+.cu-text2{
+    position: absolute;
+    left: 105;
+    top: 140;
+}
+
+.cu-text3{
+    position: absolute;
+    left: 105;
+    top: 230;
+}
+
+.line3{
+    background-color: rgba(226, 218, 218, 0.219);
+    height: 2px;
+    margin-top: 5px;
+    position: absolute;
+    top: 120px;
+    width: 275;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.line4{
+    background-color: rgba(209, 198, 198, 0.247);
+    height: 2px;
+    margin-left: 10px;
+    width: 275;
+    top: 210;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+
+.trends{
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+
+.coms{
+    color: blue;
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+}
+
+.coms2{
+    color: blue;
+    position: absolute;
+    top: 80px;
+    margin-left: 10px;
+}
+
+.fortyfive{
+    color: gray;
+    position: absolute;
+    padding-bottom: 20px;
+    font-size: 10px;
+    top: 60px;
+    margin-left: 10px;
+}
+
+.thirtyfive{
+    color: gray;
+    position: absolute;
+    padding-bottom: 20px;
+    font-size: 10px;
+    top: 100px;
+    margin-left: 10px; 
+}
+
+.who{
+    margin-top: 5px;
+}
+
+.columbia{
+    font-size: 20px;
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    <div class ="container">
+        <div class = "col-auto">
+            <div class="left">
+                <div class="row">
+                    <div class = "col-md-3"></div>
+                    <div class = "col-md-9">
+                        <div class = "columbia">
+                            Columbia University
+                        </div>
+                        <div class="at">
+                            @Columbia
+                        </div>
+                        <div class="box">
+                            Tweet to Columbia    
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class = "pic1" src=http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                            <div class = "col-md-4">
+                                <img class = "pic2" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                            <div class = "col-md-4">
+                                <img class = "pic3" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class = "pic4" src=http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                            <div class = "col-md-4">
+                                <img class = "pic5" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                            <div class = "col-md-4">
+                                <img class = "pic6" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <div class = "col-auto">
+            <div class="middle">
+                <div class="row">
+                    <div class = "col-md-2">
+                        <b>Tweets</b>
+                    </div>
+                    <div class = "col-md-2">
+                        <b>Media</b>
+                    </div>
+                    <div class = "col-md-2">
+                        <b>Other</b>
+                    </div>
+                    <div class = "col-md-2">
+                        <b>Other2</b>
+                    </div>
+                </div>
+                <div class = "line">
+                </div>
+                <div class = "row">
+                    <div class = "col-md-1">
+                        <img class = "pic7" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                    </div>
+                    <div class = "col-md-11">
+                        <div class = "text">
+                            <b>Columbia University</b><br>
+                            Groundbreaking. Beautiful. Monumental. More text. Read this. Lots to read. <br>
+                            Lorem ipsum. Get it to break the line. Must use up 3 line. what else can I say? <br>
+                            #threelines
+                        </div>
+                    </div>
+                </div>
+                <div class = "bigpic">
+                    <img class = "pic8" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                </div>
+                <div class = "line2"></div>
+                <div class = "row">
+                    <div class = "col-md-1">
+                        <img class = "pic9" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                    </div>
+                    <div class = "col-md-11">
+                        <div class = "text">
+                            <b>Columbia University</b><br>
+                            Groundbreaking. Beautiful. Monumental. More text. Read this. Lots to read. <br>
+                            Lorem ipsum. Get it to break the line. Must use up 3 line. what else can I say? <br>
+                            #threelines
+                        </div>
+                    </div>
+                </div>
+                <div class = "bigpic">
+                    <img class = "pic10" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                </div>
+            </div>
+        </div>
+        <div class = "col-auto">
+             <div class="right">
+                <div class = "box2">
+                    <div class = "who">
+                        <b>Who to follow</b>
+                    </div>
+                    <div class = "follow1">
+                        <img class = "pic11" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                        <div class = "cu-text1">
+                            Columbia
+                        </div>
+                        <div class = "followbox1">
+                            follow
+                        </div>
+                        <div class = "line3"></div>
+                    </div>
+                    <div class = "follow2">
+                        <img class = "pic12" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                        <div class = "cu-text2">
+                            Columbia
+                        </div>
+                        <div class = "followbox2">
+                            follow
+                        </div>
+                        <div class = "line4"></div>
+                    </div>
+                    <div class = "follow3">
+                        <img class = "pic13" src = http://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg>
+                        <div class = "cu-text3">
+                            Columbia
+                        </div>
+                        <div class = "followbox3">
+                            follow
+                        </div>
+                    </div>
+                </div>
+                <div class = "box3">
+                    <div class = "trends">
+                        <b>Trends for you!</b>
+                    </div>
+                    <div class = "coms">
+                        <b>#COMS4170</b>
+                    </div>
+                    <div class = "fortyfive">
+                        45 million tweets
+                    </div>
+                    <div class = "coms2">
+                        <b>#COMS6889-08</b>
+                    </div>
+                    <div class = "thirtyfive">
+                        35 million tweets
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+            
+        </div>
+        </div>
+        
+    </div>
+</body>
