@@ -1,0 +1,235 @@
+
+#header{
+    height: 100px;
+}
+
+html * {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mytext{
+    text-align: middle;
+}
+
+.header{
+    margin-left: 100px;
+}
+
+.top{
+    font-style: bold;
+    font-size: 35px;
+    margin-left: 100px;
+
+}
+
+#put_result{
+    margin-left: 100px;
+}
+#search_box{
+    padding-right: 20px;
+}
+
+.search_img{
+    width: 168px;
+    height: 168px;
+}
+
+#edit{
+    margin-left: 500px;
+}
+
+#three{
+    background-color: rgb(238, 238, 238);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#submit{
+    padding-right: 50px;
+}
+
+.entry{
+    margin-left: 100px;
+}
+
+#my_img{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.add{
+    font-size: 10px;
+    margin-right: 100px;
+}
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text2{
+    font-size: 20px;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 300px;
+    height: 1000px;
+    width: 90%;
+    background-color: white;
+}
+
+.title{
+    font-size: 40px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    color: black;
+}
+
+.navbar-brand{
+    padding-right: 750px;
+}
+
+
+#nav{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 100px;
+}
+
+#sub{
+    background-color: pink;
+}
+
+#submit{
+    border-color: pink;
+    width: 100px;
+    height: 40; 
+    background-color: pink;
+}
+
+.c{
+    margin-left: 100px;
+    background-color: rgb(245, 238, 238);
+    width: 500px;
+    height: 600px;
+}
+
+.welcome_img{
+    height: 168px;
+    width: 168px;
+}
+
+.contain{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.price{
+    font-size: 25px;
+    color: grey;
+    margin-top: 13px;
+}
+
+#search_box{
+   z-index: 10;
+}
+
+#submit{
+    z-index: 1;
+}
+
+.name{
+    font-size: 35px;
+}
+
+.navbar-nav{
+    padding-left: 500px;
+}
+
+.hi{
+    height: 100px;
+    background-color: white;
+}
+
+.view{
+    margin-left: 100px;
+}
+
+#results{
+    margin-left: 100px;
+}
+
+.mytext{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.photo{
+   width: 350;
+   height: 400px;
+}
+
+.one{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.two{
+    margin-left: 100px; 
+}
+
+.one2{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.checked{
+    color: pink;
+    size: 150%;
+}
+
+.f{
+    background-color: pink;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.store{
+    text-decoration: none;
+    color: black;
+}
+
+.fe{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    text-align: center;
+}
+
+.description{
+   padding-right: 30px;
+}
+
+.ingredients{
+    margin-left: 6px;
+}
+
+.cal{
+    margin-left: 6px;
+}
+
+#stores{
+    margin-left: 6px;
+}
+
+
