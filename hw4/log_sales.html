@@ -1,0 +1,89 @@
+ <html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="/Users/sophiejohnson/Desktop/ui design/log_sales.js"></script>
+</head>
+<style>
+    .container{
+        margin-left: 100px;
+        margin-right: 300px;
+        height: 1000px;
+        width: 90%;
+        background-color: white;
+    }
+
+    .header{
+        height: 300px;
+        background-color: lightgray;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .title{
+        font-size: 40px;
+        text-align: left;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+
+    #client{
+        width: 300px;
+        border-color: lightgray;
+    }
+
+    #reams{
+        width: 150px;
+        border-color: lightgray;
+    }
+
+    #myrow{
+        margin-bottom: 40px;
+    }
+
+    #error_client{
+        font-size: 15px;
+        color: red;
+    }
+
+    #error_reams{
+        font-size: 15px;
+        color: red;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class = "header">
+            <div class = "title">
+                <b>Columbia Paper Infinity</b>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-4" id = "error_client"></div>
+            <div class = "col-md-2" id = "error_reams"></div>
+        </div>
+        <div class="row" id = "myrow">
+            <div class = "col-md-2">
+                Log your paper sales:
+            </div>
+            <div class = "col-md-4">
+                <input type="text" id="client" class = "ui-widget" placeholder="Client"></input>
+            </div>
+            <div class = "col-md-2">
+                <input type="text" id="reams" placeholder="# Reams"></input>
+            </div>
+            <div class = "col-md-1">
+                <button id="post" class = "btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <div id="posts">
+        </div>
+
+</body>
+</html>
