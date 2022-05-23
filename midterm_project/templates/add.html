@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'add.js') }}"></script>
+
+
+<div class= "myform">
+        <div id ="put_result"></div>
+        <div class = "top">
+            Create a New Flavor Entry
+        </div>
+        <div class = "row">
+        <div name="frm" class="col-md-8 entry">
+            <div class="form-group" id="1">
+              <label for="flav">Flavor</label>
+              <input class="form-control" id="flav" name="flav" autocomplete='off'>
+              <div id="1-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="2">
+              <label for="des">Description</label>
+              <input class="form-control" id="des" name="des" autocomplete='off'>
+              <div id="2-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="3">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" placeholder="(per pint)" name="price" autocomplete='off'>
+                <div id="3-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="4">
+                <label for="ingred">Ingredient List</label>
+                <input class="form-control" id="ingred" name="ingred" autocomplete='off'>
+                <div id="4-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="5">
+                <label for="fea">Features</label>
+                <select multiple class="form-control" id="fea">
+                      <option>organic</option>
+                      <option>limited edition</option>
+                      <option>vegan</option>
+                </select>
+                <div id="5-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="6">
+                <label for="pic">Photo</label>
+                <input  class="form-control" id="pic" name="pic" autocomplete='off'>
+                <div id="6-e" style='color: red'></div>
+            </div>
+            <div class="form-group" id="7">
+                <label for="rate">Rating</label>
+                <select class="form-control" id="rate" name="rate" autocomplete='off'>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+            </div>
+            <div class="form-group" id="8">
+                <label for="caloric">Calories</label>
+                <input type="number" class="form-control" id="caloric" name="caloric" autocomplete='off'>
+                <div id="8-e" style='color: red'></div>
+            </div>
+            <div id="9" class="form-group">
+                <label for="s">Stores Offering this Flavor</label>
+                <select multiple class="form-control" id="s">
+                      <option>Morton Williams</option>
+                      <option>Hmart</option>
+                      <option>Westside</option>
+                </select>
+                <div id="9-e" style='color: red'></div>     
+            </div>
+            <button class="btn btn-sm btn-outline-secondary" id = "sub" type="submit">Submit</button>
+        </div>
+    </div>
+</div>
+    
+
+{% endblock %}
